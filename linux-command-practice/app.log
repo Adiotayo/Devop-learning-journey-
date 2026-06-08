@@ -1,0 +1,7 @@
+INFO: Application started
+INFO: User logged in
+WARNING: Disk space is getting low
+ERROR: Database connection failed
+INFO: Retrying connection
+ERROR: Payment service timeout
+INFO: Application stopped
