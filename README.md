@@ -36,3 +36,6 @@ I created and ran my first Python file:
 print("Hello Tayo, Python is working!")
 
 # Devop-learning-journey-
+## Git Practice
+
+I am learning how to use Git to track changes, commit work, and push updates to GitHub.
