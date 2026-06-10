@@ -62,3 +62,8 @@ git add . = prepare files for saving
 git commit -m "message" = save changes locally with a message
 git push = upload the committed work to GitHub
 git diff --staged = what am I about to commit?
+git log --oneline = shows your saved history in a short format.
+git restore file-name = undo changes in a file before committing
+git restore --staged file-name = remove a file from the commit area after git add
+This is a test mistake that I want to undo.
+.md means Markdown = Markdown is a simple format for writing notes with headings, bullet points, and code examples.
