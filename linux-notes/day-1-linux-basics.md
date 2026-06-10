@@ -28,5 +28,16 @@ Today I learned how to open the VS Code terminal, check my current folder, list 
 ### mkdir
 Creates a new folder.
 Example:
+```bash[]\## What is a Script?
+
+A script is a file that contains commands for the computer to run automatically.
+
+Instead of typing commands one by one in the terminal, I can put the commands inside a file and run the file.
+
+Example:
+
 ```bash
-mkdir ADIO
+#!/bin/bash
+echo "Hello Tayo, this script is working"
+"echo" prints a message to the terminal.
+Why chmod +x is needed - When a script is created, the computer may not allow it to run immediately.
