@@ -41,3 +41,24 @@ Example:
 echo "Hello Tayo, this script is working"
 "echo" prints a message to the terminal.
 Why chmod +x is needed - When a script is created, the computer may not allow it to run immediately.
+pwd = shows where you are
+ls = lists files and folders
+cd = enters a folder
+cd .. = goes back one folder level
+mkdir = creates a folder
+touch = creates a file
+rm = deletes a file
+rmdir = deletes an empty folder
+rm -r = deletes a folder and everything inside it
+cp = copies a file
+mv = renames or moves a file
+grep = searches inside a file
+head = shows the first lines of a file
+tail = shows the last lines of a file
+less = opens a file in reading mode
+chmod = changes file permissions
+git status = check what changed
+git add . = prepare files for saving
+git commit -m "message" = save changes locally with a message
+git push = upload the committed work to GitHub
+git diff --staged = what am I about to commit?
