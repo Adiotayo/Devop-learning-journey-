@@ -199,5 +199,12 @@ git switch branch-name = move to branch
 git switch -c branch-name = create and move to branch
 git switch main = go back to main
 git merge branch-name = bring branch changes into current branch
-git branch -d branch-name = delete branch
-```
+git branch -d branch-name = delete branch after merging
+
+# 16. My understanding
+
+A branch lets me work safely without damaging the main project.
+
+I can create a branch, make changes, commit those changes, then merge the branch into main when I am happy with the work.
+
+This is useful in DevOps because engineers often test changes separately before adding them to the stable version of a project.
