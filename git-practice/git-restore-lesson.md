@@ -16,3 +16,4 @@ Working area = you are writing the homework
 Staging area = you put the homework in your bag ready to submit
 Commit = you officially submit the homework
 Push = you upload/submission reaches GitHub
+git log --oneline = You should see a new commit like
