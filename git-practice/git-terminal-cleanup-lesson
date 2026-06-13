@@ -1,0 +1,219 @@
+# Git and Terminal Cleanup Lesson
+
+## Lesson topics
+
+1. `.gitignore`
+2. `git remote -v`
+3. `git clone` practice
+4. Markdown formatting
+5. Terminal shortcuts
+---
+
+## 1. What is `.gitignore`?
+
+`.gitignore` is a special file that tells Git which files or folders it should ignore.
+
+Simple meaning:
+
+```text
+.gitignore = a list of files and folders Git should not track
+# Git and Terminal Cleanup Lesson
+
+## Lesson purpose
+
+This lesson is to clean up important Git and terminal topics before moving into Bash scripting.
+
+The topics are:
+
+```text
+1. .gitignore
+2. git remote -v
+3. git clone practice
+4. Markdown formatting
+5. terminal shortcuts
+```
+
+---
+
+# 1. .gitignore
+
+## What is `.gitignore`?
+
+`.gitignore` is a file that tells Git which files or folders it should ignore.
+
+Simple meaning:
+
+```text
+.gitignore = do not track these files
+```
+
+Git normally watches the files inside my project.
+
+But sometimes there are files I do not want Git to track or upload to GitHub.
+
+Examples:
+
+```text
+temporary files
+secret files
+password files
+system files
+cache files
+large dependency folders
+```
+
+---
+
+## Why `.gitignore` is important
+
+`.gitignore` helps keep my GitHub repository clean and safe.
+
+For example, I should not upload secret files such as:
+
+```text
+.env
+passwords.txt
+private-keys
+```
+
+I also do not need to upload unnecessary computer files such as:
+
+```text
+.DS_Store
+__pycache__/
+node_modules/
+```
+
+Simple meaning:
+
+```text
+.gitignore protects my project from tracking files that should not be saved in Git.
+```
+
+---
+
+## Create a `.gitignore` file
+
+Terminal command:
+
+```bash
+touch .gitignore
+```
+
+What the syntax means:
+
+```text
+touch = create a new empty file
+.gitignore = the file name
+```
+
+Simple meaning:
+
+```text
+Create a file called .gitignore.
+```
+
+Important note:
+
+```text
+The dot at the beginning makes it a hidden-style config file.
+```
+
+---
+
+## Open `.gitignore` in VS Code
+
+Terminal command:
+
+```bash
+code .gitignore
+```
+
+What the syntax means:
+
+```text
+code = open in VS Code
+.gitignore = the file I want to open
+```
+
+Simple meaning:
+
+```text
+Open the .gitignore file so I can write inside it.
+```
+
+---
+
+## Example content inside `.gitignore`
+
+Inside `.gitignore`, I can write:
+
+```text
+.DS_Store
+.env
+__pycache__/
+node_modules/
+*.log
+```
+
+What each line means:
+
+```text
+.DS_Store = ignore Mac system files
+
+.env = ignore environment/secret files
+
+__pycache__/ = ignore Python cache folder
+
+node_modules/ = ignore Node.js dependency folder
+
+*.log = ignore all files ending with .log
+```
+
+---
+
+## Important point about `.gitignore`
+
+`.gitignore` only works automatically for files Git has not already started tracking.
+
+If Git is already tracking a file, adding it to `.gitignore` does not automatically remove it from Git.
+
+Simple meaning:
+
+```text
+.gitignore works best before Git starts tracking the file.
+```
+
+---
+
+## Check if `.gitignore` is working
+
+Terminal command:
+
+```bash
+git status
+```
+
+What the syntax means:
+
+```text
+git = use Git
+status = show current project state
+```
+
+Simple meaning:
+
+```text
+Check whether Git is still showing ignored files.
+```
+
+---
+
+## My understanding
+
+`.gitignore` tells Git what not to track.
+
+It helps me avoid pushing unnecessary or sensitive files to GitHub.
+
+I should use `.gitignore` in real projects because not every file in a project folder should be saved in Git.
+stat

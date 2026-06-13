@@ -2232,3 +2232,12 @@ After that, I can move into:
 ```text
 Bash Scripting Basics
 ```
+.gitignore = how to stop Git tracking unwanted files
+
+git remote -v = how to check which GitHub repo your project is connected to
+
+git clone = how to copy a project from GitHub onto another computer
+
+Markdown formatting = how to write better notes
+
+terminal shortcuts = how to work faster and avoid frustration
