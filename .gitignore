@@ -1,0 +1,14 @@
+.DS_Store
+Ignore Mac system files.
+
+.env
+Ignore secret environment files.
+
+__pycache__/
+Ignore Python cache folders.
+
+node_modules/
+Ignore Node.js dependency folders.
+
+*.log
+Ignore all files ending in .log
