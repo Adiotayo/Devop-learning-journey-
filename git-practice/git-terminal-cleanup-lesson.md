@@ -575,3 +575,453 @@ Clone once.
 Pull regularly.
 Push after committing work.
 ```
+---
+
+# 4. Markdown formatting
+
+## What is Markdown?
+
+Markdown is a simple way to write formatted notes using plain text.
+
+Markdown files usually end with:
+
+```text
+.md
+```
+
+Simple meaning:
+
+```text
+Markdown = a clean way to write notes, headings, lists, and code examples
+```
+
+Markdown is useful because it makes my notes easier to read on GitHub.
+
+---
+
+## Headings
+
+Headings help me organise my notes.
+
+### Main heading
+
+```markdown
+# Main Heading
+```
+
+What the syntax means:
+
+```text
+# = biggest heading
+Main Heading = the title text
+```
+
+Simple meaning:
+
+```text
+Use one # for the main title of the page.
+```
+
+Example:
+
+```markdown
+# Git and Terminal Cleanup Lesson
+```
+
+---
+
+### Section heading
+
+```markdown
+## Section Heading
+```
+
+What the syntax means:
+
+```text
+## = second-level heading
+Section Heading = the section title
+```
+
+Simple meaning:
+
+```text
+Use ## for a major section inside the note.
+```
+
+Example:
+
+```markdown
+## What is Git?
+```
+
+---
+
+### Smaller heading
+
+```markdown
+### Smaller Heading
+```
+
+What the syntax means:
+
+```text
+### = third-level heading
+Smaller Heading = smaller section title
+```
+
+Simple meaning:
+
+```text
+Use ### for smaller points under a section.
+```
+
+Example:
+
+```markdown
+### What the syntax means
+```
+
+---
+
+## Bullet points
+
+Bullet points help me list things clearly.
+
+```markdown
+- First point
+- Second point
+- Third point
+```
+
+What the syntax means:
+
+```text
+- = bullet point symbol
+First point = item in the list
+```
+
+Simple meaning:
+
+```text
+Use bullet points when listing items.
+```
+
+Example:
+
+```markdown
+- Git tracks changes
+- GitHub stores the project online
+- VS Code is where I edit files
+```
+
+---
+
+## Numbered lists
+
+Numbered lists help me show steps in order.
+
+```markdown
+1. First step
+2. Second step
+3. Third step
+```
+
+What the syntax means:
+
+```text
+1. = first item
+2. = second item
+3. = third item
+```
+
+Simple meaning:
+
+```text
+Use numbered lists when order matters.
+```
+
+Example:
+
+```markdown
+1. Write the note
+2. Save the file
+3. Add the file to Git
+4. Commit the work
+5. Push to GitHub
+```
+
+---
+
+## Inline code
+
+Inline code is used when I mention a command or file name inside a sentence.
+
+```markdown
+Use `git status` to check the project.
+```
+
+What the syntax means:
+
+```text
+` ` = backticks around a command or file name
+git status = the command I am highlighting
+```
+
+Simple meaning:
+
+```text
+Use one backtick on each side when writing a command inside a sentence.
+```
+
+Example:
+
+```markdown
+The command `git push` uploads my commits to GitHub.
+```
+
+---
+
+## Code blocks
+
+Code blocks are used when I want to show commands clearly on separate lines.
+
+````markdown
+```bash
+git status
+git add .
+git commit -m "message"
+git push
+````
+
+````
+
+What the syntax means:
+
+```text
+``` = start or end of a code block
+bash = the type of code or command being shown
+git status = command inside the code block
+````
+
+Simple meaning:
+
+```text
+Use code blocks when writing terminal commands in my notes.
+```
+
+Example:
+
+```bash
+git status
+git add .
+git commit -m "Update notes"
+git push
+```
+
+---
+
+## Text blocks
+
+Text blocks are useful when I want to explain output or simple meaning.
+
+````markdown
+```text
+This is a simple explanation.
+````
+
+````
+
+What the syntax means:
+
+```text
+``` = start or end of a code block
+text = plain explanation, not a command
+````
+
+Simple meaning:
+
+```text
+Use text blocks for explanations or expected terminal output.
+```
+
+Example:
+
+```text
+nothing to commit, working tree clean
+```
+
+---
+
+## Bold text
+
+Bold text is used to make important words stand out.
+
+```markdown
+**important word**
+```
+
+What the syntax means:
+
+```text
+** ** = make the text bold
+important word = the text I want to highlight
+```
+
+Simple meaning:
+
+```text
+Use bold text for important points.
+```
+
+Example:
+
+```markdown
+**Do not clone inside your main project folder.**
+```
+
+---
+
+## Horizontal line
+
+A horizontal line separates sections.
+
+```markdown
+---
+```
+
+What the syntax means:
+
+```text
+--- = horizontal divider line
+```
+
+Simple meaning:
+
+```text
+Use this to separate big sections in my notes.
+```
+
+---
+
+## Good Markdown note structure
+
+A clean Markdown lesson can follow this structure:
+
+````markdown
+# Lesson Title
+
+## What is it?
+
+Short explanation.
+
+## Terminal command
+
+```bash
+command here
+````
+
+## What the syntax means
+
+```text
+command = meaning
+option = meaning
+file-name = meaning
+```
+
+## Simple meaning
+
+```text
+Simple explanation here.
+```
+
+## My understanding
+
+My own explanation in simple words.
+
+````
+
+Simple meaning:
+
+```text
+A good note has a title, explanation, command, syntax breakdown, simple meaning, and my understanding.
+````
+
+---
+
+## Markdown mistakes to avoid
+
+### Mistake 1: Forgetting to close a code block
+
+Wrong:
+
+````markdown
+```bash
+git status
+````
+
+Correct:
+
+````markdown
+```bash
+git status
+````
+
+````
+
+Simple meaning:
+
+```text
+Every code block needs an opening and closing set of three backticks.
+````
+
+---
+
+### Mistake 2: Writing command explanations inside config files
+
+For example, inside `.gitignore`, I should not write:
+
+```text
+*.log = ignore all log files
+```
+
+Inside `.gitignore`, I should only write:
+
+```text
+*.log
+```
+
+The explanation belongs in the Markdown note, not the config file.
+
+---
+
+### Mistake 3: Mixing terminal commands and notes
+
+Terminal command:
+
+```bash
+git status
+```
+
+Markdown note:
+
+```markdown
+`git status` checks what Git can see.
+```
+
+Simple meaning:
+
+```text
+Commands go in the terminal.
+Explanations go in the Markdown note.
+```
+
+---
+
+## My understanding
+
+Markdown helps me write clean technical notes.
+
+I can use headings, bullet points, numbered lists, inline code, code blocks, text blocks, bold text, and horizontal lines to make my notes easier to read.
+
+Good Markdown notes will help me explain my learning clearly on GitHub.
