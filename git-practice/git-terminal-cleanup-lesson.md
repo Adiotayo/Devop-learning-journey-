@@ -1025,3 +1025,407 @@ Markdown helps me write clean technical notes.
 I can use headings, bullet points, numbered lists, inline code, code blocks, text blocks, bold text, and horizontal lines to make my notes easier to read.
 
 Good Markdown notes will help me explain my learning clearly on GitHub.
+---
+
+# 5. Terminal shortcuts
+
+## What are terminal shortcuts?
+
+Terminal shortcuts help me work faster and avoid typing everything from scratch.
+
+Simple meaning:
+
+```text
+Terminal shortcuts = quick keyboard actions that make terminal work easier
+```
+
+---
+
+## Clear the terminal screen
+
+Terminal command:
+
+```bash
+clear
+```
+
+What the syntax means:
+
+```text
+clear = clear the terminal screen
+```
+
+Simple meaning:
+
+```text
+Remove old terminal output from the screen so I can focus.
+```
+
+Important note:
+
+```text
+clear does not delete files.
+clear only cleans the terminal view.
+```
+
+---
+
+## Use the up arrow
+
+Shortcut:
+
+```text
+Up Arrow
+```
+
+What it does:
+
+```text
+Shows the previous command I typed.
+```
+
+Simple meaning:
+
+```text
+Use the up arrow to repeat or edit an old command instead of typing it again.
+```
+
+Example:
+
+If I typed this earlier:
+
+```bash
+git status
+```
+
+I can press the up arrow to bring it back.
+
+---
+
+## Use the down arrow
+
+Shortcut:
+
+```text
+Down Arrow
+```
+
+What it does:
+
+```text
+Moves forward through command history after using the up arrow.
+```
+
+Simple meaning:
+
+```text
+Use the down arrow to move back toward newer commands.
+```
+
+---
+
+## Use Tab autocomplete
+
+Shortcut:
+
+```text
+Tab
+```
+
+What it does:
+
+```text
+Completes file or folder names automatically.
+```
+
+Simple meaning:
+
+```text
+Type part of a file or folder name, then press Tab to complete it.
+```
+
+Example:
+
+```bash
+cd ~/Devo
+```
+
+If I press Tab, the terminal may complete it to:
+
+```bash
+cd ~/Devop-learning-journey-
+```
+
+Another example:
+
+```bash
+code git-practice/git-terminal
+```
+
+Pressing Tab may complete the full file name.
+
+Why this is useful:
+
+```text
+Tab helps me avoid spelling mistakes in long file names.
+```
+
+---
+
+## Use Control + C to cancel
+
+Shortcut:
+
+```text
+Control + C
+```
+
+What it does:
+
+```text
+Stops or cancels a command that is currently running.
+```
+
+Simple meaning:
+
+```text
+Use Control + C if the terminal is stuck or a command is still running.
+```
+
+Example:
+
+If a command keeps running and does not stop, I can press:
+
+```text
+Control + C
+```
+
+Important note:
+
+```text
+Control + C cancels a running command.
+It does not copy text in the terminal.
+```
+
+On Mac, copying text is usually:
+
+```text
+Command + C
+```
+
+---
+
+## Use Control + L
+
+Shortcut:
+
+```text
+Control + L
+```
+
+What it does:
+
+```text
+Clears the terminal screen.
+```
+
+Simple meaning:
+
+```text
+Control + L is a shortcut version of the clear command.
+```
+
+This is similar to typing:
+
+```bash
+clear
+```
+
+---
+
+## Use q to quit reading mode
+
+Shortcut:
+
+```text
+q
+```
+
+When to use it:
+
+```text
+When I am inside less, git log, or another page-by-page view.
+```
+
+Simple meaning:
+
+```text
+Press q to quit and return to the normal terminal.
+```
+
+Example:
+
+If I run:
+
+```bash
+less git-practice/git-terminal-cleanup-lesson.md
+```
+
+I can exit by pressing:
+
+```text
+q
+```
+
+---
+
+## Use Command + S in VS Code
+
+Shortcut:
+
+```text
+Command + S
+```
+
+What it does:
+
+```text
+Saves the file I am editing in VS Code.
+```
+
+Simple meaning:
+
+```text
+Command + S saves the file on my laptop.
+```
+
+Important note:
+
+```text
+Command + S is not the same as git commit.
+```
+
+Difference:
+
+```text
+Command + S = save file changes in VS Code
+
+git commit = save staged changes in Git history
+
+git push = upload commits to GitHub
+```
+
+---
+
+## Use Command + ` to open or hide terminal in VS Code
+
+Shortcut:
+
+```text
+Command + `
+```
+
+What it does:
+
+```text
+Shows or hides the terminal panel in VS Code.
+```
+
+Simple meaning:
+
+```text
+Use Command + backtick to open or close the VS Code terminal quickly.
+```
+
+The backtick key usually looks like this:
+
+```text
+`
+```
+
+It is often near the Esc key on the keyboard.
+
+---
+
+## Use Control + A and Control + E
+
+Shortcut:
+
+```text
+Control + A
+```
+
+What it does:
+
+```text
+Moves the cursor to the beginning of the command line.
+```
+
+Shortcut:
+
+```text
+Control + E
+```
+
+What it does:
+
+```text
+Moves the cursor to the end of the command line.
+```
+
+Simple meaning:
+
+```text
+Control + A = jump to the start of the command
+
+Control + E = jump to the end of the command
+```
+
+These are useful when editing long commands.
+
+---
+
+## Useful beginner shortcut summary
+
+```text
+clear = clear terminal screen
+
+Up Arrow = previous command
+
+Down Arrow = newer command after using Up Arrow
+
+Tab = autocomplete file or folder name
+
+Control + C = cancel running command
+
+Control + L = clear terminal screen
+
+q = quit less or git log view
+
+Command + S = save file in VS Code
+
+Command + ` = show or hide terminal in VS Code
+
+Control + A = move to beginning of command line
+
+Control + E = move to end of command line
+```
+
+---
+
+## My understanding
+
+Terminal shortcuts help me work faster and make fewer mistakes.
+
+For now, the most important ones for me are:
+
+```text
+Up Arrow
+Tab
+Control + C
+q
+Command + S
+clear
+```
+
+I should practise these slowly while using the terminal, instead of trying to memorise everything at once.
