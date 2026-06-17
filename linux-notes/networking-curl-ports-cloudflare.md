@@ -209,3 +209,9 @@ Simple mental model:
 ```text
 Name → DNS → IP address → Route → Server → Port → Response
 ```
+200 = OK / successful response 
+301 = permanent redirect 
+302 = temporary redirect 
+403 = forbidden / blocked 
+404 = page not found 
+500 = server-side problem
