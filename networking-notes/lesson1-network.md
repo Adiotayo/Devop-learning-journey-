@@ -27,3 +27,41 @@ A client requests services.
 
 Client sends request.
 Server sends response.
+
+# Lesson 3 - HTTP, HTTPS and curl
+
+## HTTP
+
+HTTP is used for communication between browsers and web servers.
+
+Default Port: 80
+
+## HTTPS
+
+HTTPS is the secure version of HTTP.
+
+Default Port: 443
+
+HTTPS encrypts communication.
+
+## curl
+
+curl allows us to make web requests from the terminal.
+
+Examples:
+
+curl https://example.com
+
+curl -I https://google.com
+
+curl -L https://barnardos.org.uk
+
+## HTTP Status Codes
+
+200 = Success
+
+302 = Redirect
+
+404 = Page Not Found
+
+500 = Server Error
